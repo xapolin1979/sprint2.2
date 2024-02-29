@@ -1,0 +1,65 @@
+#navbar-example2 {
+  background-color: rgb(181, 213, 226) !important;
+}
+
+#container1 {
+  background-image: url("../images/fondoTecnologico\ \(2\).jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+.nav-link:hover {
+  color: rgb(244, 80, 42) !important;
+}
+.navbar-brand:hover{
+    color: rgb(244, 80, 42) !important;
+}
+.btn:hover{
+    background-color: rgb(244, 80, 42) !important;
+    border: none !important;
+}
+#titulo1 h1,
+p {
+  color: rgb(33, 37, 41);
+}
+.card {
+    box-shadow: 0px 0px 10px rgb(220, 218, 218);
+  border: none;
+
+}
+.card-img-top {
+  height: 155px;
+}
+.modal-content {
+  width: 120%;
+  background-color: rgb(181, 213, 226) !important;
+}
+.modal-header{
+    border-bottom: black!important;        
+}
+tr{
+    border-top: black!important; 
+    border-bottom: black!important;        
+          
+}
+
+footer {
+  background-color: rgb(181, 213, 226);
+}
+.container p{
+    color: black !important;
+}
+
+@media screen and (max-width: 900px) {
+  .card-img-top {
+    height: 135px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-img-top {
+    height: 100px;
+  }
+}
